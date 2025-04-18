@@ -18,5 +18,11 @@ public class controller {
         return "Vai Corinthians!!!";
      
     }
+
+    @GetMapping("/teste")
+    public String getTeste() {
+        return "Isso é um teste";
+    }
+    
     
 }
